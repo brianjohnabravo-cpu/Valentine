@@ -4,7 +4,7 @@ const noBtn = document.getElementById("noBtn");
 // YES button click
 yesBtn.addEventListener("click", function() {
     document.querySelector(".card").innerHTML =
-        "<h1>YAY!!! 💖</h1><p>You just made my day! 🥰</p>";
+        "<h1>YAY!!! 💖</h1><p>I love You! 🥰</p>";
 });
 
 // Function to move NO button
@@ -27,4 +27,5 @@ function moveButton() {
 noBtn.addEventListener("mouseover", moveButton);
 
 // Move when touched (mobile)
+
 noBtn.addEventListener("touchstart", moveButton);
